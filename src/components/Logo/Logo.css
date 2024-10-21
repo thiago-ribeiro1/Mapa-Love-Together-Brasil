@@ -1,0 +1,9 @@
+/* Logo Img */
+
+#imgLoveTogether {
+    width: 170px;
+    position: absolute;
+    top: 1%; /* Posiciona a imagem a 1% da altura da página */
+    left: 27%; /* Posiciona a imagem a 27% da largura da página */
+    z-index: 9999; /* Garante que fique acima de outros elementos */
+  }
