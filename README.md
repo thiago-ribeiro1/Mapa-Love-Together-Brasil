@@ -7,12 +7,11 @@ Projeto em desenvolvimento para a Unifacisa, que visa criar um mapa interativo d
 
 ## 🚀 Tecnologias Utilizadas
 
-Este projeto utiliza as seguintes tecnologias:
+- ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) **React**
+- ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) **JavaScript**
+- ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white) **CSS**
+- ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white) **HTML**
 
-- **React**
-- **JavaScript**
-- **CSS**
-- **HTML**
 
 ## 📋 Funcionalidades Planejadas
 
