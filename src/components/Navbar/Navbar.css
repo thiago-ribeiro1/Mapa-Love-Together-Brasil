@@ -1,46 +1,88 @@
 /* Navbar */
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: rgb(43, 43, 43);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%; /* Ocupa toda a largura da página */
-    z-index: 10; /* Para ficar sobre o conteúdo */
-  }
-  
+  display: flex;
+  justify-content: space-between; /* Para espaçar os itens corretamente */
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgb(43, 43, 43);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex; /* Mantém os links na linha em telas grandes */
+  gap: 20px;
+  justify-content: flex-end; /* Alinha os links à direita */
+  flex-grow: 1;
+  padding-right: 90px;
+  transition: all 0.3s ease; /* Para transição suave */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #444;
+}
+
+.highlight {
+  border: 2px solid #d93651;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.highlight:hover {
+  background-color: #d93651;
+}
+
+/* Ícone de menu sanduíche para dispositivos móveis */
+.menu-icon {
+  display: none; /* Inicialmente escondido */
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
   .nav-links {
-    margin-left: 53%;  /* posicionar o conteúdo do texto do navbar */
-    list-style: none;
+    position: absolute; /* Para que apareçam abaixo da navbar */
+    top: 0px; /* Para colocar abaixo da navbar */
+    right: 0;
+    background-color: rgb(43, 43, 43);
+    width: 100%; /* Para ocupar toda a largura da navbar */
     display: flex;
+    flex-direction: column; /* Empilha os links */
+    align-items: center;
     gap: 20px;
+    transform: translateY(-100%); /* Começa fora da tela */
+    transition: transform 0.3s ease-in-out;
+    padding: 10px 0; /* Padding para os links */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Adiciona sombra */
+    visibility: hidden; /* Esconde as opções */
   }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: white;
-    padding: 8px 15px;
-    border-radius: 20px;
-    transition: background-color 0.3s ease;
+
+  .nav-links.open {
+    transform: translateY(0); /* Aparece na tela */
+    visibility: visible; /* Torna as opções visíveis */
   }
-  
-  .nav-links a:hover {
-    background-color: #444;
+
+  .menu-icon {
+    display: block; /* Exibe o ícone do menu */
+    position: absolute; /* Para que fique à direita da navbar */
+    right: 90px; /* Ajuste a posição do ícone do menu */
+    z-index: 15; /* Garante que fique acima de outros elementos */
   }
-  
-  .highlight {
-    border: 2px solid #d93651;
-    color: white;
-    padding: 5px 15px;
-    border-radius: 20px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-  }
-  
-  .highlight:hover {
-    background-color: #d93651;
-  }
-  
+}

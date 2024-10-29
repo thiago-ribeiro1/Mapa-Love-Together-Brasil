@@ -1,9 +1,24 @@
 /* Logo Img */
-
 #imgLoveTogether {
-    width: 170px;
-    position: absolute;
-    top: 1%; /* Posiciona a imagem a 1% da altura da página */
-    left: 27%; /* Posiciona a imagem a 27% da largura da página */
-    z-index: 9999; /* Garante que fique acima de outros elementos */
+  width: 170px; /* Tamanho padrão da logo */
+  position: absolute;
+  top: 10px; /* Um valor fixo para manter a consistência em dispositivos móveis */
+  left: 27%; /* Ajuste conforme necessário */
+  z-index: 9999;
+  transition: width 0.3s ease; /* Transição suave ao redimensionar */
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 768px) {
+  #imgLoveTogether {
+    width: 120px; /* Reduz o tamanho em dispositivos móveis */
+    left: 20%; /* Ajusta a posição para centralizar melhor */
   }
+}
+
+@media (max-width: 480px) {
+  #imgLoveTogether {
+    width: 100px; /* Reduz ainda mais para telas pequenas */
+    left: 15%; /* Ajusta o posicionamento */
+  }
+}
