@@ -1,51 +1,70 @@
+# Getting Started with Create React App
 
-# Mapa Interativo do Brasil - Impacto da ONG Love Together Brasil
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Love Together Brasil](https://github.com/user-attachments/assets/d5c67c55-6d9a-48e0-9e24-3aa3105bb577)
+## Available Scripts
 
-Projeto em desenvolvimento para a Unifacisa, que visa criar um mapa interativo do Brasil. O objetivo é ilustrar o impacto da ONG **Love Together Brasil** em diferentes estados e regiões do país. Ao passar o mouse sobre cada estado ou região, informações relevantes sobre as ações da ONG são exibidas, proporcionando uma experiência visual e informativa sobre o alcance e os resultados dos projetos realizados.
+In the project directory, you can run:
 
-## 🚀 Tecnologias Utilizadas
+### `npm start`
 
-- ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) **React**
-- ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) **JavaScript**
-- ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white) **CSS**
-- ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white) **HTML**
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## 📋 Funcionalidades Planejadas
+### `npm test`
 
-- Exibição interativa do mapa do Brasil.
-- Informações sobre os projetos da ONG ao passar o mouse sobre estados/regiões.
-- Destacar o impacto da ONG.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## 📌 Status do Projeto
+### `npm run build`
 
-**Projeto em desenvolvimento**: No momento, estamos trabalhando na criação da interface e na integração dos dados sobre o impacto da ONG. Melhorias e novas funcionalidades serão implementadas ao longo do tempo.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## 🛠️ Como Executar o Projeto
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-1. Clone o repositório:
-   ```bash
-   git clone https://https://github.com/thiago-ribeiro1/Mapa-Love-Together-Brasil.git
-   ```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-2. Navegue até o diretório do projeto:
-   ```bash
-   cd Mapa-Love-Together-Brasil
-   ```
+### `npm run eject`
 
-3. Instale as dependências:
-   ```bash
-   npm install
-   ```
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-4. Execute o projeto:
-   ```bash
-   npm start
-   ```
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-5. Acesse o projeto no navegador:
-   ```
-   http://localhost:3000
-   ```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

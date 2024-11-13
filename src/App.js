@@ -3,6 +3,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Logo from './components/Logo/Logo';
 import MapSvg from './components/SvgMap/SvgMap';
+import ImpactoCarousel from './components/ImpactoCarousel/ImpactoCarousel';  // Importando o carrossel
+import Footer from './components/Footer/Footer';  // Importando o footer
+import WatermarkImage from './components/WatermarkImage/WatermarkImage';
 import './App.css';
 
 function App() {
@@ -59,15 +62,34 @@ function App() {
 
   return (
     <Router>
-      <div>
-        <Logo />
-        <Navbar />
-        <Routes>
-          <Route
-            path="/"
-            element={<MapSvg handleMouseMove={handleMouseMove} tooltip={tooltip} />}
-          />
-        </Routes>
+      <div className="flex flex-col h-screen">
+        {/* Logo e Navbar */}
+        <div className="flex-shrink-0">
+          <Logo />
+          <Navbar />
+        </div>
+
+        {/* Seção do Mapa */}
+        <div className="h-screen w-full">
+          <Routes>
+            <Route
+              path="/"
+              element={<MapSvg handleMouseMove={handleMouseMove} tooltip={tooltip} />}
+            />
+          </Routes>
+        </div>
+
+        {/* Seção do Carrossel */}
+        <div className="h-screen w-full">
+          <ImpactoCarousel />
+        </div>
+
+        <WatermarkImage />
+
+        {/* Seção do Footer */}
+        <div className="h-screen w-full">
+          <Footer />
+        </div>
       </div>
     </Router>
   );

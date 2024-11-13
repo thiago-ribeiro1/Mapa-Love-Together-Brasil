@@ -1,0 +1,126 @@
+.carousel-container {
+    width: 100%;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    padding: 2rem 1rem;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  .inner-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  
+  .nav-button {
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.2s;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    color: white;
+  }
+  
+  .content-wrapper {
+    flex: 1;
+    margin: 0;
+  }
+  
+  .carousel-title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .text-content {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .number {
+    color: #EF4444;
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    color: #E5E7EB;
+    margin-top: 0.5rem;
+  }
+  
+  .description {
+    color: #D1D5DB;
+    margin-top: 1rem;
+  }
+  
+  .image-container {
+    width: 100%;
+    max-width: 300px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .mobile-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .mobile-buttons .nav-button {
+    display: flex;
+  }
+  
+  @media (min-width: 768px) {
+    .nav-button {
+      display: flex;
+    }
+    
+    .mobile-buttons {
+      display: none;
+    }
+    
+    .content-container {
+      flex-direction: row;
+      gap: 4rem;
+    }
+    
+    .text-content {
+      width: 50%;
+    }
+    
+    .carousel-title {
+      font-size: 2rem;
+    }
+    
+    .subtitle {
+      font-size: 1.875rem;
+    }
+  }

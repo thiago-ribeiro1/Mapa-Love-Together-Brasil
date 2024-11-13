@@ -74,6 +74,16 @@
     visibility: hidden; /* Esconde as opções */
   }
 
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 20px 20px; /* Aumente o padding para dar mais altura */
+    }
+    
+    .nav-links {
+      padding-top: 60px; /* Ajusta o espaço para os links abaixo do navbar */
+    }
+  }
+
   .nav-links.open {
     transform: translateY(0); /* Aparece na tela */
     visibility: visible; /* Torna as opções visíveis */
@@ -82,7 +92,7 @@
   .menu-icon {
     display: block; /* Exibe o ícone do menu */
     position: absolute; /* Para que fique à direita da navbar */
-    right: 90px; /* Ajuste a posição do ícone do menu */
+    right: 90px; /* Ajusta a posição do ícone do menu */
     z-index: 15; /* Garante que fique acima de outros elementos */
   }
 }

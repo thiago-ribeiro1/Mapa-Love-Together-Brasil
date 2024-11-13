@@ -3,7 +3,7 @@
   width: 170px; /* Tamanho padrão da logo */
   position: absolute;
   top: 10px; /* Um valor fixo para manter a consistência em dispositivos móveis */
-  left: 27%; /* Ajuste conforme necessário */
+  left: 27%; 
   z-index: 9999;
   transition: width 0.3s ease; /* Transição suave ao redimensionar */
 }
