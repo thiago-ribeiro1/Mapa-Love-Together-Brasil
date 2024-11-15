@@ -14,10 +14,10 @@ const Navbar = () => {
         ☰
       </div>
       <ul className={`nav-links ${isOpen ? "open" : ""}`}>
-        <li><a href="#">Sobre nós</a></li>
-        <li><a href="#">Contato</a></li>
-        <li><a href="#" className="highlight">Por que apoiar?</a></li>
-        <li><a href="#">EN</a></li>
+        <li><a href="https://lovetogetherbrasil.org/sobre-nos">Sobre nós</a></li>
+        <li><a href="https://lovetogetherbrasil.org/contato">Contato</a></li>
+        <li><a href="https://lovetogetherbrasil.org/doe" className="highlight">Por que apoiar?</a></li>
+        <li><a href="https://give.lovetogetherbrazilusa.com/">EN</a></li>
       </ul>
     </nav>
   );

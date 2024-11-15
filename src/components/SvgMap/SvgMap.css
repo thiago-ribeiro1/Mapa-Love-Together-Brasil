@@ -45,12 +45,13 @@ path:hover {
   background: white;
   padding: 10px 15px;
   z-index: 5;
-  height: 30px;
-  line-height: 30px;
   color: #000000;
   border-radius: 5px;
   transform: translateX(-50%);
   display: none;
+  width: auto; /* Largura adaptável ao conteúdo */
+  max-width: 250px; /* Largura máxima para evitar muito espaçamento */
+  word-wrap: break-word; /* Quebra de linha caso o texto seja muito longo */
 }
 
 .tooltip.active {
@@ -78,7 +79,6 @@ path:hover {
     padding: 8px 12px;
   }
 }
-
 
 /* Responsividade para telas menores */
 @media (max-width: 600px) {
