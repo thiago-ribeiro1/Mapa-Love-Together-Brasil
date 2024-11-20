@@ -10,16 +10,16 @@ const Footer = () => {
         <div style={{ textAlign: 'center', margin: '10px' }}>
           <img src={logo} alt="Love Together Brazil" style={{ width: '100px' }} />
           <div style={{ marginTop: '10px' }}>
-            <a href="#" style={{ color: '#fff', margin: '0 5px' }}>
+            <a href="https://www.instagram.com/lovetogetherbrasil" style={{ color: '#fff', margin: '0 5px' }}>
               <i className="fab fa-instagram" style={{ fontSize: '20px' }}></i>
             </a>
-            <a href="#" style={{ color: '#fff', margin: '0 5px' }}>
+            <a href="https://www.youtube.com/@lovetogetherbrasil" style={{ color: '#fff', margin: '0 5px' }}>
               <i className="fab fa-youtube" style={{ fontSize: '20px' }}></i>
             </a>
-            <a href="#" style={{ color: '#fff', margin: '0 5px' }}>
+            <a href="https://www.facebook.com/lovetogetherbrasil" style={{ color: '#fff', margin: '0 5px' }}>
               <i className="fab fa-facebook" style={{ fontSize: '20px' }}></i>
             </a>
-            <a href="#" style={{ color: '#fff', margin: '0 5px' }}>
+            <a href="https://www.linkedin.com/company/lovetogetherbrasil" style={{ color: '#fff', margin: '0 5px' }}>
               <i className="fab fa-linkedin" style={{ fontSize: '20px' }}></i>
             </a>
           </div>
