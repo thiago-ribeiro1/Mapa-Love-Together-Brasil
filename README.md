@@ -19,9 +19,6 @@ Projeto em desenvolvimento para a Unifacisa, que visa criar um mapa interativo d
 - Informações sobre os projetos da ONG ao passar o mouse sobre estados/regiões.
 - Destacar o impacto da ONG.
 
-## 📌 Status do Projeto
-
-**Projeto em desenvolvimento**: No momento, estamos trabalhando na criação da interface e na integração dos dados sobre o impacto da ONG. Melhorias e novas funcionalidades serão implementadas ao longo do tempo.
 
 ## 🛠️ Como Executar o Projeto
 
