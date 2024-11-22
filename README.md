@@ -3,7 +3,7 @@
 
 ![Love Together Brasil](https://github.com/user-attachments/assets/d5c67c55-6d9a-48e0-9e24-3aa3105bb577)
 
-Projeto em desenvolvimento para a Unifacisa, que visa criar um mapa interativo do Brasil. O objetivo é ilustrar o impacto da ONG **Love Together Brasil** em diferentes estados e regiões do país. Ao passar o mouse sobre cada estado ou região, informações relevantes sobre as ações da ONG são exibidas, proporcionando uma experiência visual e informativa sobre o alcance e os resultados dos projetos realizados.
+Projeto desenvolvido para a Unifacisa e Love Together Brasil, que visa criar um mapa interativo do Brasil. O objetivo é ilustrar o impacto da ONG **Love Together Brasil** em diferentes estados e regiões do país. Ao passar o mouse sobre cada estado ou região, informações relevantes sobre as ações da ONG são exibidas, proporcionando uma experiência visual e informativa sobre o alcance e os resultados dos projetos realizados.
 
 ## 🚀 Tecnologias Utilizadas
 
