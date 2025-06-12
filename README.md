@@ -24,7 +24,7 @@ Projeto desenvolvido para a Unifacisa e Love Together Brasil, que visa criar um 
 
 1. Clone o repositório:
    ```bash
-   git clone https://https://github.com/thiago-ribeiro1/Mapa-Love-Together-Brasil.git
+   git clone https://github.com/thiago-ribeiro1/Mapa-Love-Together-Brasil.git
    ```
 
 2. Navegue até o diretório do projeto:
